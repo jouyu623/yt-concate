@@ -3,7 +3,7 @@ import json
 from yt_concate.settings import API_KEY #yt_concate.settings 是絕對路徑
 print(API_KEY)# 官方提供的管道給你拿取東西，要自己申請複製憑證，不要推到GitHub上讓大家一直來用
 
-CHANNEL_ID = 'UCKSVUHI9rbbkXhvAXK-2uxA'  # 上網查詢的網址的channel id
+CHANNEL_ID = 'UCKSVUHI9rbbkXhvAXK-2uxA'  # 上網查詢的網址的channel id，
 
 def get_all_video_in_channel(channel_id):
 
