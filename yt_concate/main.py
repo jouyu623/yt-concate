@@ -32,5 +32,5 @@ def get_all_video_in_channel(channel_id):
     return video_links
 
 
-# video_list = get_all_video_in_channel(CHANNEL_ID)
-# print(len(video_list))
+video_list = get_all_video_in_channel(CHANNEL_ID)
+print(len(video_list))
